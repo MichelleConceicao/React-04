@@ -1,17 +1,17 @@
 import "./styles.css";
 
 export default class App extends Component{
-  mensagem=() => {
+  texto=() => {
     return <h1>Praticando Arrow Function</h1>
   }
-  dobro=(x) => {
-    return x*2
+  triplo=(x) => {
+    return x*3
   }
   render(){
     return(
       <>
-      {this.mensagem()}
-      <h2>{this.dobro(5)}</h2>
+      {this.texto()}
+      <h2>{this.triplo(6)}</h2>
       </>
     )
   }
